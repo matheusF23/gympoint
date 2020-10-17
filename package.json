@@ -1,0 +1,11 @@
+{
+  "name": "gympoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matheusF23/gympoint.git",
+  "author": "Matheus Figueiredo <matheus_figueiredo18@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
