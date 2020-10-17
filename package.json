@@ -5,7 +5,15 @@
   "repository": "git@github.com:matheusF23/gympoint.git",
   "author": "Matheus Figueiredo <matheus_figueiredo18@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5",
+    "sucrase": "^3.16.0"
   }
 }
