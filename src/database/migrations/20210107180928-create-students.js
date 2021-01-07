@@ -21,11 +21,11 @@ module.exports = {
         allowNull: false,
       },
       weight: {
-        type: Sequelize.STRING,
+        type: Sequelize.FLOAT,
         allowNull: false,
       },
       hight: {
-        type: Sequelize.STRING,
+        type: Sequelize.FLOAT,
         allowNull: false,
       },
       created_at: {
