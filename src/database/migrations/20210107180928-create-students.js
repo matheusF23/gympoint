@@ -24,7 +24,7 @@ module.exports = {
         type: Sequelize.FLOAT,
         allowNull: false,
       },
-      hight: {
+      height: {
         type: Sequelize.FLOAT,
         allowNull: false,
       },
